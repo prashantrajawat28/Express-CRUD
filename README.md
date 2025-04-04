@@ -1,4 +1,4 @@
-# CRUD-Operations
+# Express-CRUD
 
 A simple CRUD (Create, Read, Update, Delete) web application built with **Node.js**, **Express.js**, and **EJS**. This project allows users to create, edit, and delete posts dynamically.  
 
