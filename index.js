@@ -31,6 +31,9 @@ let posts=[
 
 
 
+app.get("/", (req, res) => {
+  res.redirect("/posts");
+});
 
 
 app.get("/posts",(req,res)=>{
