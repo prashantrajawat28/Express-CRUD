@@ -13,8 +13,10 @@
             <h4 class="content"><%= post.content %></h4>
             <br>
             <div class="button-group">
-                <a href="http://localhost:8080/posts/<%= post.id %>">See in detail</a>
-                <a href="http://localhost:8080/posts/<%= post.id %>/edit">Edit</a>
+                <a href="/posts/<%= post.id %>">See in detail</a>
+                <a href="/posts/<%= post.id %>/edit">Edit</a>
+                
+
                 
                 <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
                     <button>Delete Post</button>
@@ -26,7 +28,7 @@
 
     <br>
     <br>
-    <a href="http://localhost:8080/posts/new">Create New Post</a>
+    <a href="/posts/new">Create New Post</a>
    
     
 </body>
